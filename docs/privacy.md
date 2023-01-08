@@ -46,7 +46,7 @@ Wird benötigt um in gespiegelten Nachrichten Informationen zur jeweiligen App a
 
 ## 3) Auswertung von Nutzungsdaten
 
-Nutzungsdaten werden zu keinem Zeitpunkt ausgewertet. 
+Alle Nutzungsdaten werden nur lokal auf deinem Gerät in der App gespeichert. Hierzu werden Speicherbereiche genutzt, auf die ausschließlich Mobile Crossing Zugriff hat. Benachrichtigungen werden über das interne Netzwerk an die WebApp übertragen. Der Inhalt der Benachrichtigungen kann dabei persönliche Informationen enthalten. Durch die Ende-zu-Ende-Verschlüsselung und das Sitzungsmanagement sind diese geschützt. Die Daten in der WebApp werden ausschließlich im Browser zwischengespeichert. Es ist deine eigene Verantwortung den Browser bzw. den Computer vor Schadsoftware und dem Zugriff Dritter zu schützen.
 
 ## 4) Firebase Crashlytics
 
@@ -65,8 +65,16 @@ Weitere Informationen zum Datenschutz erhältst du in den Datenschutzhinweisen v
 Daten, die bei der Nutzung der Mobile Crossing App protokolliert worden sind, werden an Dritte nur übermittelt, soweit dies gesetzlich vorgeschrieben ist oder durch eine Gerichtsentscheidung festgelegt wurde.
 
 Eine Weitergabe zu anderen nichtkommerziellen oder zu kommerziellen Zwecken erfolgt nicht.
- 
-## 6) Aktualität und Änderung dieser Datenschutzinformation
+
+## 6) Recht auf Löschung
+
+Du hast das Recht, unter den in Art. 17 DSGVO beschriebenen Voraussetzungen von mir die Löschung der dich betreffenden personenbezogenen Daten zu verlangen. Diese Voraussetzungen sehen insbesondere ein Löschungsrecht vor, wenn die personenbezogenen Daten für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig sind, sowie in Fällen der unrechtmäßigen Verarbeitung, des Vorliegens eines Widerspruchs oder des Bestehens einer Löschungspflicht nach Unionsrecht oder dem Recht des Mitgliedstaates, dem wir unterliegen. Zum Zeitraum der Datenspeicherung siehe im Übrigen Ziffer 5 dieser Datenschutzerklärung. Um dein Recht auf Löschung geltend zu machen, wende dich bitte an die oben angegebenen Kontaktadressen.
+
+## 7) Auskunftsrecht
+
+Du hast das Recht, von mir jederzeit auf Antrag eine Auskunft über die von mir verarbeiteten, dich betreffenden personenbezogenen Daten im Umfang des Art. 15 DSGVO zu erhalten. Hierzu kannst du einen Antrag postalisch oder per E-Mail an die oben angegebene Adresse stellen.
+
+## 8) Aktualität und Änderung dieser Datenschutzinformation
 
 Diese Datenschutzinformation ist aktuell gültig und hat den Stand Januar 2023.
 Durch die Weiterentwicklung meiner Webseite und Angebote darüber oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzinformation zu ändern. Die jeweils aktuelle Datenschutzinformation kann jederzeit auf der Webseite unter https://mobilecrossing.de/privacy von Ihnen abgerufen und ausgedruckt werden.
