@@ -16,6 +16,10 @@
         .section-part {
             background-color: #aeb7c5!important;;
         }
+
+        .faq-questions div {
+            margin-top: 20px
+        }
     </style>
 </head>
 <body style="background-color: #dce0e8">
@@ -99,6 +103,30 @@
     </div>
 </div>
 
+<div style="padding: 20px;" class="faq-questions container">
+    <h2 class="my-3">FAQ - Häufig gestellte Fragen</h2>
+    <hr>
+
+    <div id="answer02"><h4>Warum muss SSL aktiviert sein, um Browsermeldungen anzuzeigen?</h4>
+        Nur wenn die Verbindung sicher ist, können Browsermeldungen angezeigt werden. Der Grund liegt schlichtweg im Schutz der Daten. Dass Mobile Crossing auch schon so durch die Ende-zu-Ende-Verschlüsselung eine hohe Sicherheit aufweist, kann der Browser ja nicht wissen.
+    </div>
+    <div id="answer03"><h4>Warum wird im Browser bei Aktivierung von SSL eine Fehlermeldung angezeigt?</h4>
+        Grundsätzlich ist SSL zum Einsatz im Zusammenhang mit Domains (bspw. www.google.de) gedacht. Wenn allerdings über das lokale Netzwerk zugegriffen wird, gibt es nur eine IP (z.B. 192.172.0.1). Diese Art von Adressen lassen sich leider nicht zertifizieren und entsprechend kritisiert das auch der Browser. Das ändert aber nichts an der grundsätzlichen Sicherheit durch die Ende-zu-Ende-Verschlüsselung.
+    </div>
+    <div id="answer04"><h4>Was ist mit Browsermeldungen gemeint?</h4>
+        Der Browser kann rechts oben kleine Meldungen außerhalb des Fensters einblenden. Und auch dann, wenn das Fenster nicht gerade im Vordergrund ist. Das klappt bei Mobile Crossing aber nur, solange die WebApp offen ist. In der WebApp lässt sich der Umfang der Meldung einstellen. Bspw. kann auch nur der Titel der jeweiligen App angezeigt werden.
+    </div>
+    <div id="answer05"><h4>Werden irgendwelche Daten an Server gesendet oder ausgewertet?</h4>
+        Nein, Mobile Crossing sendet keine Daten ins Internet bzw. an Server und kann diese entsprechend auch nicht auswerten. Jeder Datenaustausch passiert nur innerhalb deines lokalen Netzwerks zwischen App und Browser. Falls du die Funktion aktivierst hast, wird jedoch im Falle von Abstürzen das Hilfsprogramm Firebase Crashlytics eingesetzt. Diese Anwendung sendet Absturzberichte, um auf Fehler schneller und besser reagieren zu können. Es werden dabei keine persönlichen Informationen ins Internet gesendet, sondern nur Daten in abstrakter Form - bspw. an welcher Stelle im Code ein Fehler auftrat.
+    </div>
+    <div id="answer06"><h4>Warum werden von bestimmten Browsern beim Vorlesen Daten an Server gesendet?</h4>
+        Um die Sprachausgabe zu generieren, versenden bestimmte Browser (unter anderem bekannt für Google Chrome und Apple Safari) Daten an ihre Server. Bei der Auswahl der verfügbaren Stimmen wird zwar intern versucht keine derartige serverseitig generierte Sprache auszuwählen. Im Einzelfall ist allerdings nur eine solche Stimme verfügbar und die wird dann auch ausgewählt.
+    </div>
+    <div id="answer07"><h4>Warum wird manchmal völlig unerwartet der Service gestoppt?</h4>
+        Falls du lange nicht mehr den Service genutzt hast oder nicht mehr mit einem WLAN-Netzwerk verbunden bist, wird der Service automatisch gestoppt. Manchmal stoppt aber auch Android selbst den Service und das liegt an einer falschen Konfiguration der "Hintergrunddaten". Bitte stelle im System dann ein, dass Hintergrunddaten für Mobile Crossing dauerhaft aktiviert bleiben sollen.
+    </div>
+</div>
+
 <!--    <hr/>-->
 <div
         class="mt-4 text-center"
@@ -108,7 +136,7 @@
         href="/imprint">Impressum</a>
 </div>
 <div
-        class="mt-1 text-center"
+        class="mt-1 text-center mb-3"
 >
     Entwickelt in Deutschland
 </div>
